@@ -1,0 +1,53 @@
+Three Principles of Cybersecurity：
+CIA triad
+1.	Confidentiality (机密性)
+Make sure the data is kept safe and only the authorized person can access.
+2.	Integrity （完整性）
+The data is authentic and not tempered with.
+3.	Availability （可用性）
+Users or organizations can access the networks, servers, and applications at anytime and anywhere. Always to make sure to have backups.
+
+Cybersecurity Framework
+1.	Identify (ID): identify management; notification from detection system is investigated.
+2.	Protect (PR): develop and implement appropriate safeguards to ensure identity assets management.
+Cyber security training for employees; creating and monitoring baseline.
+3.	Detect (DE): develop and implement appropriate activities to identify the occurrence of a cybersecurity event. 
+Detection processing; machine leaning; real-time monitoring.
+4.	Respond (RS): take actions regarding a detected cybersecurity incident respond planning.
+Communication, Analysis, Mitigation, Improvement, Achieve history logs.
+5.	Recover (RC): maintain plans. 
+Recover planning, get OP back online, version control.
+
+“You can’t secure what you don’t know!”
+
+Five stages of Penetration Test:
+Must have permission before to attack machine/network!
+1.	Reconnaissance/Information Gathering
+Actively - social engineering
+Getting IP address:
+•	ping address.com
+•	nslookup webaddress
+•	whois webaddress.com
+
+Passively – Google
+2.	Scanning: find opening gateways/ports
+Scanning is not allow to without permission from the target!!
+-	whatweb webaddress
+level of aggression : 1) stealth for public request 3&4) for penetration testing only
+3.	 Gaining Access/Exploitation: hack
+4.	Maintaining Access: planning back door, root kits
+5.	Covering tracks: remove tracks by removing files, edit logs, etc.
+Access Control Concept
+A subject: any entity that requests access to our access. Example: user, client, process or program, device endpoint.
+An object: anything that a subject attempts to access; responds to a request for service. Example: building, computer, a file, printer or scanner, server, database, software, task, thread or process.
+Rules: Access rule is an instruction developed to allow or deny access to an object by comparting the validated identity of the subject to an access control list. Example: Firewall
+1.	Defense in Depth
+Layered defense where a data center contains: Physical controls, Logical/Technical controls, administrative controls, Assets.
+2.	Principle if Least Privilege
+A standard of permitting only minimum access necessary for users or programs to fulfill their functions.
+3.	Privileged Access Management
+Granted various create, read, update, delete privileges on database.
+4.	Privileged Accounts
+Those with permissions beyond those of normal users, such as managers and administrators.
+
+
