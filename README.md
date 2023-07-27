@@ -1,12 +1,19 @@
 ### Introduction to Cybersecurity
 **3 Principles of Cybersecurity：**
 **CIA triad**
-1.	**Confidentiality (机密性)**
+1.	**Confidentiality (机密性):**
 Make sure the data is kept safe and only the authorized person can access.
-2.	**Integrity （完整性）**
+2.	**Integrity （完整性）:**
 The data is authentic and not tempered with. Ensure data not alter through hash. 
-3.	**Availability （可用性）**
+3.	**Availability （可用性）:**
 Users or organizations can access the networks, servers, and applications at anytime and anywhere. Always to make sure to have backups.
+
+**Opposite of CIA : DAD (Disclosure, Alteration, Deny)**
+1. **Disclosure** – confidentiality had been compromised
+2. **Alteration** – data had been compromised, modified
+3. **Destruction/Deny** – server shutdown, disruption, server does not respond
+
+
 
 **Cybersecurity Framework**
 1.	**Identify (ID)**: identify management; notification from detection system is investigated.
