@@ -4,7 +4,7 @@
 1.	**Confidentiality (机密性)**
 Make sure the data is kept safe and only the authorized person can access.
 2.	**Integrity （完整性）**
-The data is authentic and not tempered with.
+The data is authentic and not tempered with. Ensure data not alter through hash. 
 3.	**Availability （可用性）**
 Users or organizations can access the networks, servers, and applications at anytime and anywhere. Always to make sure to have backups.
 
