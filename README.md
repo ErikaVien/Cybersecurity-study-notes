@@ -1,5 +1,5 @@
-### Introduction to Cybersecurity
-**3 Principles of Cybersecurity：**
+# Introduction to Cybersecurity
+### 3 Principles of Cybersecurity:
 **CIA triad**
 1.	**Confidentiality (机密性):**
 Make sure the data is kept safe and only the authorized person can access.
@@ -13,9 +13,7 @@ Users or organizations can access the networks, servers, and applications at any
 2. **Alteration** – data had been compromised, modified
 3. **Destruction/Deny** – server shutdown, disruption, server does not respond
 
-
-
-**Cybersecurity Framework**
+### Cybersecurity Framework
 1.	**Identify (ID)**: identify management; notification from detection system is investigated.
 2.	**Protect (PR)**: develop and implement appropriate safeguards to ensure identity assets management.
 Cyber security training for employees; creating and monitoring baseline.
@@ -26,9 +24,9 @@ Communication, Analysis, Mitigation, Improvement, Achieve history logs.
 5.	**Recover (RC)**: maintain plans. 
 Recover planning, get OP back online, version control.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **“You can’t secure what you don’t know!”**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _**“You can’t secure what you don’t know!”**_
 
-**Security Controls:**
+### Security Controls:
 1.	**Physical controls**: physical hardware device, such as badge reader, lock
 2.	**Technical controls**
 3.	**Administrative controls:** guidelines or advisories aimed for employees.
@@ -40,7 +38,7 @@ Recover planning, get OP back online, version control.
 4. **Services** : ratio server, firewall. 
 5. **Preparing for Error and exception handling** : SQL injection practice 
 
-**Access Control Concept**
+### Access Control Concept
 A subject: any entity that requests access to our access. Example: user, client, process or program, device endpoint.
 An object: anything that a subject attempts to access; responds to a request for service. Example: building, computer, a file, printer or scanner, server, database, software, task, thread or process.
 Rules: Access rule is an instruction developed to allow or deny access to an object by comparting the validated identity of the subject to an access control list. Example: Firewall
@@ -53,20 +51,20 @@ Granted various create, read, update, delete privileges on database.
 4.	**Privileged Accounts**
 Those with permissions beyond those of normal users, such as managers and administrators.
 
-**SIEM (Security Information and Event Management)**
+### SIEM (Security Information and Event Management)
 * To detect security threats
 * Real times logging events in own environments
 * Examples: Splunk, IBM, QRadar, ArcSight ESM, FortiSIEM
 
-**SOAR (Security Orchestration Automation and Response)**
+### SOAR (Security Orchestration Automation and Response)
 * Network. Threat Intelligence, Mobile, Endpoints, Identify & Access, Cloud Security, WAF & App Security, Web Proxy & Firewall.
 * Examples: Splunk Phantom, IBM Resilient, Logsign, Demisto
 
-**EDR (Endpoint Detection and Response)**
+### EDR (Endpoint Detection and Response)
 * CarbonBlack, SentineOne, FireEye HX
 
 ### 5 stages of Penetration Test:
-Must have permission before to attack machine/network!
+_**Must have permission before to attack machine/network!**_
 1.	**Reconnaissance/Information Gathering</br>**
 Actively - social engineering</br>
 Getting IP address:</br>
@@ -75,7 +73,7 @@ Getting IP address:</br>
 - whois webaddress.com
 Passively – Google</br>
 2.	**Scanning**: find opening gateways/ports</br>
-**Scanning is not allow to without permission from the target!!**
+_**Scanning is not allow to without permission from the target!!**_
 -	whatweb webaddress</br>
 level of aggression : 1) stealth for public request 3&4) for penetration testing only
 3.  **Gaining Access/Exploitation**: hack
