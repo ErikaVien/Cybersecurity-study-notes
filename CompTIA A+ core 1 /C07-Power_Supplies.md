@@ -1,7 +1,6 @@
 # Chapter 7 : Power Supplies
 
 ### Installing PSU
-
 1. screw non-modular power supply,
 2. connect 24-pin power supply and CPU power cable to motherboard on PSU
 3. connect power cable to PSU, then switch on
